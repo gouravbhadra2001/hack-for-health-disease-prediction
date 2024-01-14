@@ -10,11 +10,6 @@ import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-hide_github_icon = GithubIcon {
-  visibility: hidden;
-}
-
-st.markdown(hide_github_icon, unsafe_allow_html=True)
 
 
 # loading the saved models
